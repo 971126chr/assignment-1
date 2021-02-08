@@ -1,0 +1,52 @@
+body {
+    margin: 40px 100px 0 100px;
+}
+header {
+    width: 1000px;
+    height: 143px;
+}
+h1#logo {
+    margin-right: 87px;
+    float: left;
+}
+div#top-menu {
+    position: absolute;
+    top: 8px;
+    right: 101px;
+}
+li.small {
+    margin: 8px 0 0 20px;
+    float: left;
+}
+li.allmenu {
+    margin-left: 20px;
+    float: left;
+}
+nav#nav-menu {
+    display: inline;
+    position: absolute;
+    width: 798px;
+    height: 56px;
+    float: left;
+}
+nav>ul>li.nav-left {
+    background: url(../img/02/header/nav/nav-bar-left.png);
+    width: 11px;
+    height: 56px;
+    float: left;
+}
+nav>ul>li.nav-bar {
+    background: url(../img/02/header/nav/nav-bar.png);
+    width: 780px;
+    height: 56px;
+    float: left;
+}
+nav>ul>li.nav-right {
+    background: url(../img/02/header/nav/nav-bar-right.png);
+    width: 7px;
+    height: 56px;
+    float: left;
+}
+nav>ul>li.nav-menu-1 {
+    background: blue;
+}
