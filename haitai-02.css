@@ -1,0 +1,232 @@
+body {
+    margin: 0 100px;
+}
+div#container {
+    margin: 0 auto;
+    width: 1000px;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 143px;
+}
+h1#logo {
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+h1>a {
+    display: inline-block;
+}
+div#top-menu {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+div>ul:after {
+    content: "";
+    display: block;
+    clear: left;
+}
+li.small {
+    margin: 8px 0 0 20px;
+    float: left;
+}
+li.allmenu {
+    margin-left: 20px;
+    float: left;
+}
+nav#nav-menu {
+    display: block;
+    position: absolute;
+    top: 41px;
+    right: 0;
+    width: 798px;
+    height: 56px;
+    float: left;
+}
+nav>ul:after {
+    content: "";
+    display: block;
+    clear: left;
+}
+nav>ul>li.nav-left {
+    background: url(../img/02/header/nav/nav-bar-left.png);
+    width: 11px;
+    height: 56px;
+    float: left;
+}
+nav>ul>li.nav-bar {
+    background: url(../img/02/header/nav/nav-bar.png);
+    width: 780px;
+    height: 56px;
+    float: left;
+}
+nav>ul>li.nav-right {
+    background: url(../img/02/header/nav/nav-bar-right.png);
+    width: 7px;
+    height: 56px;
+    float: left;
+}
+span.nav-text-1 {
+    position: relative;
+    top: 17px;
+    right: 69px;
+    bottom: 24px;
+    left: 1px;
+    padding: 17px 69px 24px 69px;
+}
+span.nav-text-2 {
+    position: relative;
+    top: 16px;
+    right: 71px;
+    bottom: 24px;
+    left: 138px;
+    padding: 16px 71px 24px 138px;
+}
+span.nav-text-3 {
+    position: relative;
+    top: 16px;
+    right: 71px;
+    bottom: 24px;
+    left: 71px;
+    padding: 16px 71px 24px 142px;
+}
+span.nav-text-4 {
+    position: relative;
+    top: 16px;
+    right: 192px;
+    bottom: 24px;
+    padding: 16px 86px 24px 86px;
+}
+aside {
+    width: 187px;
+    height: 1323px;
+    float: left;
+}
+p.aside-top {
+    padding: 21px 40px 29px 36px;
+}
+aside>ul>li>a {
+    display: block;
+}
+ul>li.aside-menu-su {
+    margin: 29px 105px 9px 50px;
+}
+ul>li.aside-login {
+    margin: 0 23px 10px 29px;
+}
+ul>li.aside-menu-find {
+    margin: 0 38px 18px 50px;
+}
+ul>li.aside-menu-change {
+    margin: 0 78px 17px 50px;
+}
+ul>li.aside-menu-profile {
+    margin: 0 77px 18px 50px;
+}
+ul>li.aside-menu-privacy {
+    margin: 0 52px 17px 50px;
+}
+ul>li.aside-menu-withdraw {
+    margin: 0 105px 0 50px;
+}
+article {
+    width: 790px;
+    height: 1323px;
+    margin: 0 0 0 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 0 #f1f1f1 inset;
+    float: left;
+}
+article>div#top-article {
+    width: 676px;
+    height: 1151px;
+    margin: 0 0 0 40px;
+    padding: 57px 57px 115px;
+}
+article>div>header#article-header {
+    width: 670px;
+    height: 220px;
+}
+article>div>header>div.border-bottom {
+    border-bottom: dotted 1px #cccccc;
+    height: 28px;
+}
+article>div>header>div>h2 {
+    display: inline;
+}
+article>div>header>div>p.main-top-p {
+    display: inline;
+    position: relative;
+    top: 1px;
+    left: 23px;
+}
+article>div>header>div>p.main-top-small-home {
+    display: inline;
+    position: relative;
+    top: 0;
+    left: 156px;
+}
+article>div>header>p.long-agree {
+    position: relative;
+    top: 19px;
+}
+article>div>header>div.main-box-4 {
+    margin: 50px 0 43px 0;
+}
+article>div>header>div>ul.main-box-list:after {
+    clear: left;
+}
+article>div>header>div>ul>li {
+    float: left;
+}
+article>div>section {
+    width: 671px;
+    height: 271px;
+}
+article>div>section>div.agree-block-1 {
+    width: 625px;
+    height: 197px;
+    padding: 22px 19px 24px 19px;
+    border: solid 3px #ececec;
+    border-left: solid 2px #ececec;
+    box-shadow: -1px 0 0 #f6f6f6, 1px 0 0 #f9f9f9 inset;
+}
+article>div>section>div>h3.h3-border {
+    height: 22px;
+    border-bottom: dotted 1px #d7d7d7;
+}
+article>div>section>div>p.h3-body-1 {
+    padding: 20px 0 24px;
+    overflow-y: scroll;
+}
+article>div>section>div>div.agree-block-main-1 {
+    width: 668px;
+    height: 25px;
+    position: relative;
+    top: 0;
+    right: 22px;
+    background-color: #ececec;
+    border-left: solid 1px #f2f2f2;
+}
+article>div>section>div>div>form>label {
+    float: right;
+}
+article>div>section>div>div>form>label>input#checkbox {
+    position: relative;
+    top: 1.5px;
+}
+article>div>section>div>div>form>label>img {
+    padding: 0 12px 0 6px;
+}
+article>div>section>div.agree-block-2 {
+    width: 625px;
+    height: 197px;
+    padding: 22px 19px 24px 19px;
+    margin-top: 23px;
+    border: solid 3px #ececec;
+    border-left: solid 2px #ececec;
+    box-shadow: -1px 0 0 #f6f6f6, 1px 0 0 #f9f9f9 inset;
+}
