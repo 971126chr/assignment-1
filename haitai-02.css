@@ -4,6 +4,8 @@ body {
 div#container {
     margin: 0 auto;
     width: 1000px;
+    height: 1586px;
+    position: relative;
 }
 header {
     position: relative;
@@ -229,4 +231,21 @@ article>div>section>div.agree-block-2 {
     border: solid 3px #ececec;
     border-left: solid 2px #ececec;
     box-shadow: -1px 0 0 #f6f6f6, 1px 0 0 #f9f9f9 inset;
+}
+article>div>footer>input#butorg {
+    display: inline-block;
+    margin: 29px 6px 116px 251px;
+}
+article>div>footer>input#butgr {
+    display: inline-block;
+    margin: 29px 249px 116px 6px;
+}
+body>div>footer {
+    width: 1200px;
+    height: 560px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(../img/02/bg-left.png), url(../img/02/bg-left-2.png), url(../img/02/bg-right.png), url(../img/02/bg-right-2.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: left, bottom left, bottom right, bottom right;
 }
